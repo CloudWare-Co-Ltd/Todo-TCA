@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Todo TCA"
+include ':app'
+/*
+include ':komposable-architecture'
+include ':komposable-architecture-test'
+project(':komposable-architecture').projectDir = new File(rootDir, 'app/libs/komposable-architecture/komposable-architecture/')
+project(':komposable-architecture-test').projectDir = new File(rootDir, 'app/libs/komposable-architecture/komposable-architecture-test/')
+*/
